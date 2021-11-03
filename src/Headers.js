@@ -1,13 +1,14 @@
 import React from "react";
 import logo from "./images/PS_logo.png";
 import bghero from "./images/bg-hero.png";
+import middleP from "./images/logo-skills.png";
 
 export default function TopBars() {
   return (
     <div>
       <header>
-        <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top" role="navigation" style={{ backgroundColor: "#212121" }}>
+          <div class="container-fluid" style={{ backgroundColor: "#212121"}}>
             <a class="navbar-brand" href="/#">
               <img src={logo} alt="PSlogo" height="40" />
             </a>
@@ -174,7 +175,11 @@ export default function TopBars() {
             style={{ height: "inherit" }}
           >
             <div class="image text-center pt-3">
-              <img style={{ maxHeight: "18px" }} alt="logo-skills" />
+              <img style={{ 
+                maxHeight: "18px",
+                src: `url(${middleP})`,
+                 }}
+                  alt="logo-skills" />
             </div>
             <div class="text text-white text-center my-3">
               <h1>
