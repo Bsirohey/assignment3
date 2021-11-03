@@ -175,3 +175,63 @@ a:active {
   background-color: black;
   border-radius: 25px;
 }
+
+.footerHeader {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-left: 33px;
+}
+
+.languages {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.language {
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.footer-bottom-left {
+  flex: 1;
+  display: flex;
+}
+
+.footer-bottom-left > .footer-copyright {
+  color: #aaa;
+  font-size: 12px;
+  display: flex;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.logo-link {
+  display: flex;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 20px;
+}
+
+.globalFooter {
+  background-color: #222;
+}
+
+.footer-bottom-right {
+  display: flex;
+  min-width: 5%;
+}
+
+.social-link {
+  height: 30px;
+  width: 30px;
+}
