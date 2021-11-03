@@ -3,11 +3,6 @@ body {
   padding-top: 40px;
 }
 
-Head{
-background-color: #1a1919;
-opacity: 1;
-}
-
 a:hover {
   cursor: pointer;
 }
