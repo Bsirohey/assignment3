@@ -8,7 +8,7 @@ export default function TopBars() {
     <div>
       <header>
         <nav class="navbar navbar-expand-lg fixed-top" role="navigation" style={{ backgroundColor: "#212121" }}>
-          <div class="container-fluid" style={{ backgroundColor: "#212121"}}>
+          <div class="container-fluid" style={{ backgroundColor: "#212121" }} >
             <a class="navbar-brand" href="/#">
               <img src={logo} alt="PSlogo" height="40" />
             </a>
