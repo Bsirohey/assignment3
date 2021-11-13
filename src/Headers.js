@@ -168,8 +168,8 @@ export default function TopBars() {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center 40px",
             backgroundSize: "1350px",
-          }}
-        >
+            position:"relative"
+          }} >
           <div
             class="align-items-center justify-content-center"
             style={{ height: "inherit" }}
@@ -177,8 +177,9 @@ export default function TopBars() {
             <div class="image text-center pt-3">
               <img style={{ 
                 maxHeight: "18px",
-                src: `url(${middleP})`,
+                position: "absolute"
                  }}
+                 src= 'https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png'
                   alt="logo-skills" />
             </div>
             <div class="text text-white text-center my-3">
